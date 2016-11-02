@@ -61,7 +61,7 @@ $autoload['packages'] = array();
  */
 
 
-$autoload['libraries'] = array('session');
+$autoload['libraries'] = array();
 
 /*
   | -------------------------------------------------------------------

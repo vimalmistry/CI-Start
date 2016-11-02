@@ -5,7 +5,8 @@
     "license": "MIT",
     "require": {
         "php": ">=5.2.4",
-        "illuminate/database": "^5.3"
+        "illuminate/database": "^5.3",
+        "laravel/socialite": "^2.0"
     },
     "suggest": {
         "paragonie/random_compat": "Provides better randomness in PHP 5.x"
