@@ -62,3 +62,18 @@ $events->listen('illuminate.query', function($query, $bindings, $time, $name) {
 
 
 $capsule->setEventDispatcher($events);
+
+
+/**
+ * Schema create
+ */
+
+//Capsule::schema()->create('users', function($table)
+//{
+//    $table->increments('id');
+//    $table->string('email')->unique();
+//    $table->timestamps();
+//});
+
+//ref
+//https://siipo.la/blog/how-to-use-eloquent-orm-migrations-outside-laravel

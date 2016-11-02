@@ -6,7 +6,9 @@
     "require": {
         "php": ">=5.2.4",
         "illuminate/database": "^5.3",
-        "laravel/socialite": "^2.0"
+        "laravel/socialite": "^2.0",
+        "hybridauth/hybridauth": "2.3.0",
+        "embed/embed": "^2.7"
     },
     "suggest": {
         "paragonie/random_compat": "Provides better randomness in PHP 5.x"
