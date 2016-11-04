@@ -7,7 +7,7 @@ function isPjax()
 
 function asset($url)
 {
-    return url($url);
+    return url('assets/'.$url);
 }
 
 function url($url)
